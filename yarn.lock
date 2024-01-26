@@ -1452,15 +1452,16 @@
     webpack-dev-middleware "6.0.1"
     webpack-hot-middleware "^2.25.3"
 
-"@payloadcms/db-mongodb@^1.0.0":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@payloadcms/db-mongodb/-/db-mongodb-1.0.4.tgz#857690045c6e8d2d7a4216931b909fc20bef6857"
-  integrity sha512-AkCVp407Y210TPt0imtUrtBxKrvlSgsbwZ9GrJXL8RACo3P86e4N+4wPlHKSF74w/rvagNDy151P5pvmmiRLYQ==
+"@payloadcms/db-mongodb@^1.2.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@payloadcms/db-mongodb/-/db-mongodb-1.4.0.tgz#84cf6c857816bf85007711150cb73b07ce56528d"
+  integrity sha512-9DVazhkV5+T2+NpIvIDMZ3AmJScjkj7r8OPwrz3BBvXXKid2NUDewTKFQSVtqWK6Ed5ArlvCAlk9J6zO3Q0+cA==
   dependencies:
     bson-objectid "2.0.4"
     deepmerge "4.3.1"
     get-port "5.1.1"
-    mongoose "6.12.0"
+    http-status "1.6.2"
+    mongoose "6.12.3"
     mongoose-aggregate-paginate-v2 "1.0.6"
     mongoose-paginate-v2 "1.7.22"
     prompts "2.4.2"
@@ -1522,6 +1523,11 @@
     slate-history "0.86.0"
     slate-hyperscript "0.81.3"
     slate-react "0.92.0"
+
+"@pkgjs/parseargs@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
+  integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.23"
@@ -3186,6 +3192,15 @@ cliui@^7.0.2:
   dependencies:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
+    wrap-ansi "^7.0.0"
+
+cliui@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/cliui/-/cliui-8.0.1.tgz#0c04b075db02cbfe60dc8e6cf2f5486b1a3608aa"
+  integrity sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==
+  dependencies:
+    string-width "^4.2.0"
+    strip-ansi "^6.0.1"
     wrap-ansi "^7.0.0"
 
 clone-deep@^4.0.1:
@@ -5451,6 +5466,15 @@ isomorphic-unfetch@^3.0.0:
     node-fetch "^2.6.1"
     unfetch "^4.2.0"
 
+jackspeak@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/jackspeak/-/jackspeak-2.1.1.tgz#2a42db4cfbb7e55433c28b6f75d8b796af9669cd"
+  integrity sha512-juf9stUEwUaILepraGOWIJTLwg48bUnBmRqd2ln2Os1sW987zeoj/hzhbvRB95oMuS2ZTpjULmdwHNX4rzZIZw==
+  dependencies:
+    cliui "^8.0.1"
+  optionalDependencies:
+    "@pkgjs/parseargs" "^0.11.0"
+
 jest-util@^29.7.0:
   version "29.7.0"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-29.7.0.tgz#23c2b62bfb22be82b44de98055802ff3710fc0bc"
@@ -6100,10 +6124,10 @@ mongoose-paginate-v2@1.7.22:
   resolved "https://registry.yarnpkg.com/mongoose-paginate-v2/-/mongoose-paginate-v2-1.7.22.tgz#9f178fe5fb71597e231639adac84d3ab9a96c62a"
   integrity sha512-xW5GugkE21DJiu9e13EOxKt4ejEKQkRP/S1PkkXRjnk2rRZVKBcld1nPV+VJ/YCPfm8hb3sz9OvI7O38RmixkA==
 
-mongoose@6.12.0:
-  version "6.12.0"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-6.12.0.tgz#53035998245a029144411331373c5ce878f62815"
-  integrity sha512-sd/q83C6TBRPBrrD2A/POSbA/exbCFM2WOuY7Lf2JuIJFlHFG39zYSDTTAEiYlzIfahNOLmXPxBGFxdAch41Mw==
+mongoose@6.12.3:
+  version "6.12.3"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-6.12.3.tgz#bc921ca2fd6d4c1a48dbf7bc88cf3eef1d3c4926"
+  integrity sha512-MNJymaaXali7w7rHBxVUoQ3HzHHMk/7I/+yeeoSa4rUzdjZwIWQznBNvVgc0A8ghuJwsuIkb5LyLV6gSjGjWyQ==
   dependencies:
     bson "^4.7.2"
     kareem "2.5.1"
