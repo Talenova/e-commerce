@@ -1498,10 +1498,10 @@
   resolved "https://registry.yarnpkg.com/@payloadcms/plugin-seo/-/plugin-seo-1.0.15.tgz#ca794897d1e8c3291a8dd74339b7f28f10bba815"
   integrity sha512-7nU0DD3UZOOHsV2UIkOWL2JNCX+u1WNbEvZOiGpO6lB6YekuVIMqxHKbTdVR73UeW44lApvS9LTgif3XLQ5HDA==
 
-"@payloadcms/plugin-stripe@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@payloadcms/plugin-stripe/-/plugin-stripe-0.0.14.tgz#c74609ddc193e5e40b07a36ea7f5e485566b9c45"
-  integrity sha512-KFeyDNvt1Xvhp9mzxGqeQo9GjW52R1boyO1kYD+1c+4DAWWF9oXmf2OXXi1mbt2arSn+IBxcLnGE1EYPwT1nTA==
+"@payloadcms/plugin-stripe@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/@payloadcms/plugin-stripe/-/plugin-stripe-0.0.19.tgz#ea08493ed9eb4c747799c7a8dbb429bc20aedcda"
+  integrity sha512-5eB2ae38dDEUfVgWs5qkB3feQuuYV8t5R0Jn4qhNPBx11sdxhPGVcNyrK3KJizUSIkt/B9T9q31PfWBc0NT7kA==
   dependencies:
     "@types/uuid" "^9.0.0"
     lodash.get "^4.4.2"
@@ -1522,6 +1522,11 @@
     slate-history "0.86.0"
     slate-hyperscript "0.81.3"
     slate-react "0.92.0"
+
+"@pkgjs/parseargs@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
+  integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.23"
@@ -3186,6 +3191,15 @@ cliui@^7.0.2:
   dependencies:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
+    wrap-ansi "^7.0.0"
+
+cliui@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/cliui/-/cliui-8.0.1.tgz#0c04b075db02cbfe60dc8e6cf2f5486b1a3608aa"
+  integrity sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==
+  dependencies:
+    string-width "^4.2.0"
+    strip-ansi "^6.0.1"
     wrap-ansi "^7.0.0"
 
 clone-deep@^4.0.1:
@@ -5450,6 +5464,15 @@ isomorphic-unfetch@^3.0.0:
   dependencies:
     node-fetch "^2.6.1"
     unfetch "^4.2.0"
+
+jackspeak@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/jackspeak/-/jackspeak-2.1.1.tgz#2a42db4cfbb7e55433c28b6f75d8b796af9669cd"
+  integrity sha512-juf9stUEwUaILepraGOWIJTLwg48bUnBmRqd2ln2Os1sW987zeoj/hzhbvRB95oMuS2ZTpjULmdwHNX4rzZIZw==
+  dependencies:
+    cliui "^8.0.1"
+  optionalDependencies:
+    "@pkgjs/parseargs" "^0.11.0"
 
 jest-util@^29.7.0:
   version "29.7.0"
